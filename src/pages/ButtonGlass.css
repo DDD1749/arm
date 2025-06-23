@@ -5,6 +5,7 @@
   --anim--hover-time: 400ms;
   --anim--hover-ease: cubic-bezier(0.25, 1, 0.5, 1);
   position: relative;
+  display: inline-block;
   z-index: 2;
   border-radius: 999vw;
   background: transparent;
@@ -289,13 +290,43 @@
 }
 .button-wrap.selected button,
 .button-wrap button.pressed {
-  transform: rotate3d(1, 0, 0, 25deg) scale(0.96);
-  box-shadow:
-    inset 0 0.125em 0.125em rgba(0, 0, 0, 0.05),
+  transform: scale(0.975);
+  backdrop-filter: blur(0.01em);
+  -webkit-backdrop-filter: blur(0.01em);
+  -moz-backdrop-filter: blur(0.01em);
+  -ms-backdrop-filter: blur(0.01em);
+  box-shadow: inset 0 0.125em 0.125em rgba(0, 0, 0, 0.05),
     inset 0 -0.125em 0.125em rgba(255, 255, 255, 0.5),
-    0 0.125em 0.125em -0.125em rgba(0, 0, 0, 0.2),
-    0 0 0.1em 0.25em inset rgba(255, 255, 255, 0.2),
-    0 0.225em 0.05em 0 rgba(0, 0, 0, 0.05),
-    0 0.25em 0 0 rgba(255, 255, 255, 0.75),
-    inset 0 0.25em 0.05em 0 rgba(0, 0, 0, 0.15);
+    0 0.15em 0.05em -0.1em rgba(0, 0, 0, 0.25),
+    0 0 0.05em 0.1em inset rgba(255, 255, 255, 0.5),
+    0 0 0 0 rgba(255, 255, 255, 1);
+}
+
+.button-wrap.selected button span,
+.button-wrap button.pressed span {
+  text-shadow: 0.025em 0.025em 0.025em rgba(0, 0, 0, 0.12);
+}
+
+.button-wrap.selected button span::after,
+.button-wrap button.pressed span::after {
+  background-position: 25% 50%;
+}
+
+.button-wrap.selected button::after,
+.button-wrap button.pressed::after {
+  --angle-1: -125deg;
+}
+
+.button-wrap.selected .button-shadow,
+.button-wrap button.pressed + .button-shadow {
+  filter: blur(clamp(2px, 0.0625em, 6px));
+  -webkit-filter: blur(clamp(2px, 0.0625em, 6px));
+  -moz-filter: blur(clamp(2px, 0.0625em, 6px));
+  -ms-filter: blur(clamp(2px, 0.0625em, 6px));
+}
+
+.button-wrap.selected .button-shadow::after,
+.button-wrap button.pressed + .button-shadow::after {
+  top: calc(var(--shadow-cuttoff-fix) - 0.875em);
+  opacity: 1;
 }
