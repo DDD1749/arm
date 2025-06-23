@@ -1,0 +1,52 @@
+.payment-modal-backdrop {
+  position: fixed;
+  z-index: 50;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.payment-modal-content {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.14);
+  padding: 32px 24px;
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+}
+.payment-close-button {
+  position: absolute;
+  right: 14px; top: 10px;
+  font-size: 24px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.payment-field { margin-bottom: 16px; }
+.field-group {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.payment-field input {
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (max-width: 420px) {
+  .field-group { flex-direction: column; }
+}
+.pay-button {
+  width: 100%; background: #111; color: #fff;
+  border-radius: 8px; border: none; padding: 12px;
+  font-size: 16px; font-weight: bold; margin-top: 16px;
+  cursor: pointer;
+  transition: background .2s;
+}
+.pay-button:hover { background: #333; }
+.error-message {
+  color: #d32f2f; background: #ffeaea;
+  padding: 8px 14px; border-radius: 6px; margin-bottom: 12px;
+  font-size: 15px; font-weight: 500;
+}

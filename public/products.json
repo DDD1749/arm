@@ -1,0 +1,311 @@
+[
+  {
+    "id": "d0c2107e-4b82-47fb-ba54-e7fe7ca48b54",
+    "data": {
+      "id": "2b65b87f-24d3-4c83-9201-2195f1816d1d",
+      "name": "Кольцо Пузырь",
+      "price": 6000,
+      "image": "1748852650450-image.jpeg",
+      "model": "1748852650455-model.glb",
+      "basePart": "ring",
+      "customization": {
+        "sections": [
+          {
+            "label": "Выберите фигурку",
+            "type": "visibility",
+            "options": [
+              {
+                "name": "Несси",
+                "visible": [
+                  "nes"
+                ]
+              },
+              {
+                "name": "Свинка",
+                "visible": [
+                  "pig"
+                ]
+              },
+              {
+                "name": "Акула",
+                "visible": [
+                  "sha"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Выберите металл",
+            "type": "color",
+            "options": [
+              {
+                "name": "Серебро",
+                "partName": "ring",
+                "material": {
+                  "color": "#C0C0C0",
+                  "metalness": 1,
+                  "roughness": 0.2,
+                  "opacity": 1,
+                  "transparent": false,
+                  "clearcoat": 0.1,
+                  "clearcoatRoughness": 0.05,
+                  "envMapIntensity": 1
+                }
+              },
+              {
+                "name": "Золото",
+                "partName": "ring",
+                "material": {
+                  "color": "#FFD700",
+                  "metalness": 1,
+                  "roughness": 0.25,
+                  "opacity": 1,
+                  "transparent": false,
+                  "clearcoat": 0.15,
+                  "clearcoatRoughness": 0.08,
+                  "envMapIntensity": 1.2
+                }
+              },
+              {
+                "name": "Медь",
+                "partName": "ring",
+                "material": {
+                  "color": "#B87333",
+                  "metalness": 1,
+                  "roughness": 0.3,
+                  "opacity": 1,
+                  "transparent": false,
+                  "clearcoat": 0.12,
+                  "clearcoatRoughness": 0.09,
+                  "envMapIntensity": 1.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "Выберите размер",
+            "type": "dummy",
+            "options": [
+              {
+                "name": "9"
+              },
+              {
+                "name": "10"
+              },
+              {
+                "name": "11"
+              },
+              {
+                "name": "12"
+              },
+              {
+                "name": "13"
+              },
+              {
+                "name": "14"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "7716fb0c-faa3-4347-a210-dcd6a433dd7e",
+    "data": {
+      "id": "ed43427a-9786-4b1c-b7da-820802df48ee",
+      "name": "Кольцо Губка",
+      "price": 5000,
+      "image": "1748858481892-image.jpg",
+      "model": "1748858481894-model.glb",
+      "basePart": "bob",
+      "customization": {
+        "sections": [
+          {
+            "label": "Выберите металл",
+            "type": "color",
+            "options": [
+              {
+                "name": "Серебро",
+                "partName": "bob",
+                "material": {
+                  "color": "#C0C0C0",
+                  "metalness": 1,
+                  "roughness": 0.2,
+                  "opacity": 1,
+                  "transparent": false,
+                  "clearcoat": 0.1,
+                  "clearcoatRoughness": 0.05,
+                  "envMapIntensity": 1
+                }
+              },
+              {
+                "name": "Золото",
+                "partName": "bob",
+                "material": {
+                  "color": "#FFD700",
+                  "metalness": 1,
+                  "roughness": 0.25,
+                  "opacity": 1,
+                  "transparent": false,
+                  "clearcoat": 0.15,
+                  "clearcoatRoughness": 0.08,
+                  "envMapIntensity": 1.2
+                }
+              },
+              {
+                "name": "Медь",
+                "partName": "bob",
+                "material": {
+                  "color": "#B87333",
+                  "metalness": 1,
+                  "roughness": 0.3,
+                  "opacity": 1,
+                  "transparent": false,
+                  "clearcoat": 0.12,
+                  "clearcoatRoughness": 0.09,
+                  "envMapIntensity": 1.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "Выберите размер",
+            "type": "dummy",
+            "options": [
+              {
+                "name": "9"
+              },
+              {
+                "name": "10"
+              },
+              {
+                "name": "11"
+              },
+              {
+                "name": "12"
+              },
+              {
+                "name": "13"
+              },
+              {
+                "name": "14"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "e81d77a0-e20b-484a-9269-485523cf8eb4",
+    "data": {
+      "id": "71edfa12-29a4-48dc-afb8-6f89b1b1f98b",
+      "name": "Кольцо Лоза",
+      "price": 5000,
+      "image": "1748861212000-image.jpg",
+      "model": "1748861212015-model.glb",
+      "basePart": "rin",
+      "customization": {
+        "sections": [
+          {
+            "label": "Выберите деталь",
+            "type": "visibility",
+            "options": [
+              {
+                "name": "Гвоздь",
+                "visible": [
+                  "nai"
+                ]
+              },
+              {
+                "name": "Катана",
+                "visible": [
+                  "kat"
+                ]
+              },
+              {
+                "name": "Без",
+                "visible": [
+                  "y"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Выберите металл",
+            "type": "color",
+            "options": [
+              {
+                "name": "Серебро",
+                "partName": "rin",
+                "material": {
+                  "color": "#C0C0C0",
+                  "metalness": 1,
+                  "roughness": 0.2,
+                  "opacity": 1,
+                  "transparent": false,
+                  "clearcoat": 0.1,
+                  "clearcoatRoughness": 0.05,
+                  "envMapIntensity": 1
+                }
+              },
+              {
+                "name": "Золото",
+                "partName": "rin",
+                "material": {
+                  "color": "#FFD700",
+                  "metalness": 1,
+                  "roughness": 0.25,
+                  "opacity": 1,
+                  "transparent": false,
+                  "clearcoat": 0.15,
+                  "clearcoatRoughness": 0.08,
+                  "envMapIntensity": 1.25
+                }
+              },
+              {
+                "name": "Медь",
+                "partName": "rin",
+                "material": {
+                  "color": "#B87333",
+                  "metalness": 1,
+                  "roughness": 0.3,
+                  "opacity": 1,
+                  "transparent": false,
+                  "clearcoat": 0.12,
+                  "clearcoatRoughness": 0.09,
+                  "envMapIntensity": 1.1
+                }
+              }
+            ]
+          },
+          {
+            "label": "Выберите размер",
+            "type": "dummy",
+            "options": [
+              {
+                "name": "9"
+              },
+              {
+                "name": "10"
+              },
+              {
+                "name": "11"
+              },
+              {
+                "name": "12"
+              },
+              {
+                "name": "13"
+              },
+              {
+                "name": "14"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+]
