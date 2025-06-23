@@ -209,14 +209,16 @@ const CreateMaskPage: React.FC = () => {
     color: '#D97706'
   };
   const sectionTitleStyle: React.CSSProperties = {
-    fontSize: 15,
-    fontWeight: 500,
-    marginBottom: 8
+    fontSize: 28,
+    fontWeight: 700,
+    color: '#111',
+    marginBottom: 8,
   };
   const buttonRowStyle: React.CSSProperties = {
     display: 'flex',
     flexDirection: 'row',
-    gap: 8
+    gap: 8,
+    justifyContent: 'center'
   };
 
   return (
