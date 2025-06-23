@@ -194,6 +194,7 @@ const CreateMaskPage: React.FC = () => {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'flex-start',
+    width: '100%',
     rowGap: 24,
     padding: 24,
     background: 'rgba(255,255,255,0)',
@@ -334,7 +335,7 @@ const CreateMaskPage: React.FC = () => {
               {/* Цвет эпоксидки */}
               <div>
                 <h3 style={sectionTitleStyle}>Цвет эпоксидки</h3>
-                <div style={{ display: 'flex', flexDirection: 'row', gap: 8, justifyContent: 'center', width: '100%' }}>
+                <div style={buttonRowStyle}>
                   <ButtonGlass
                     selected={customization.color === 'красный'}
                     onClick={() => {
