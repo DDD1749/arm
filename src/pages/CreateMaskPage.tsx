@@ -183,16 +183,21 @@ const CreateMaskPage: React.FC = () => {
     position: 'relative',
     flex: 1,
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    overflow: 'visible',
+    zIndex: 1,
+    isolation: 'isolate',
   };
   const customizationPanelStyle: React.CSSProperties = {
     position: 'relative',
     zIndex: 10,
     display: 'flex',
     flexDirection: 'column',
+    alignItems: 'flex-start',
     rowGap: 24,
     padding: 24,
-    background: 'rgba(255,255,255,0)'
+    background: 'rgba(255,255,255,0)',
+    overflow: 'visible',
   };
   const h1Style: React.CSSProperties = {
     fontSize: 28,
@@ -204,14 +209,16 @@ const CreateMaskPage: React.FC = () => {
     color: '#D97706'
   };
   const sectionTitleStyle: React.CSSProperties = {
-    fontSize: 15,
-    fontWeight: 500,
-    marginBottom: 8
+    fontSize: 28,
+    fontWeight: 700,
+    color: '#111',
+    marginBottom: 8,
   };
   const buttonRowStyle: React.CSSProperties = {
     display: 'flex',
     flexDirection: 'row',
-    gap: 8
+    gap: 8,
+    justifyContent: 'center'
   };
 
   return (
